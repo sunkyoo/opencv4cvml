@@ -33,11 +33,11 @@
 책에서 설명하지 않은 Visual Studio 설치 방법과 초보자가 따라하기 어려울 수 있는 내용을 선별하여 동영상 강의를 제공합니다.
 
 
->* [Visual Studio 2017 설치하기](https://youtu.be/jzVNiMeVcvs){:target="_blank"} 
->* [OpenCV 설치 실행 파일로 설치하기](https://youtu.be/HxDfGHwDSmc){:target="_blank"} 
->* [OpenCV 프로젝트 만들기: HelloCV](https://youtu.be/fKWQIPwNsc8){:target="_blank"} 
->* [영상을 화면에 출력하기](https://youtu.be/gcgScMU0XWE){:target="_blank"} 
->* [OpenCV 소스 코드 빌드하여 설치하기](https://youtu.be/ac75cFPYlOQ){:target="_blank"} 
+	* [Visual Studio 2017 설치하기](https://youtu.be/jzVNiMeVcvs){:target="_blank"} 
+	* [OpenCV 설치 실행 파일로 설치하기](https://youtu.be/HxDfGHwDSmc){:target="_blank"} 
+	* [OpenCV 프로젝트 만들기: HelloCV](https://youtu.be/fKWQIPwNsc8){:target="_blank"} 
+	* [영상을 화면에 출력하기](https://youtu.be/gcgScMU0XWE){:target="_blank"} 
+	* [OpenCV 소스 코드 빌드하여 설치하기](https://youtu.be/ac75cFPYlOQ){:target="_blank"} 
 
 
 ## ■ 관련 강의
