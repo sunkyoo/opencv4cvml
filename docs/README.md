@@ -2,8 +2,8 @@
 
 
 ## 예제 소스 코드 다운로드 (Example Source Code Downloads)
-* 프로젝트 폴더 및 파일을 웹으로 확인하려면 상단의 [View on GitHub] 버튼을 클릭하세요.
-* 예제 소스 코드 전체를 다운로드 받으려면 상단의 [Download .zip] 또는 [Download .tar.gz] 버튼을 클릭하세요.
+* 프로젝트 폴더 및 파일을 웹으로 확인하려면 상단의 [[View on GitHub]](https://github.com/sunkyoo/opencv4cvml) 버튼을 클릭하세요.
+* 예제 소스 코드 전체를 다운로드 받으려면 상단의 [[Download .zip]](https://github.com/sunkyoo/opencv4cvml/zipball/master) 또는 [[Download .tar.gz]](https://github.com/sunkyoo/opencv4cvml/tarball/master) 버튼을 클릭하세요.
 
 ## 관련 동영상 (Related videos)
 책에서 설명하지 않은 Visual Studio 설치 방법과 초보자가 따라하기 어려울 수 있는 내용을 선별하여 동영상 강의를 제공합니다.
