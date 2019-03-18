@@ -1,9 +1,9 @@
+# OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝
 ![Title](/docs/title.jpg)
 
-# OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝
-* "OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝" (길벗, 2019) 책 소스 코드와 관련 자료입니다.
+"OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝" (길벗, 2019) 책 소스 코드와 관련 자료입니다.
 
-# 설치 동영상
+# 관련 동영상
 * [Visual Studio 2017 설치하기](https://youtu.be/jzVNiMeVcvs)
 * [OpenCV 설치 실행 파일로 설치하기](https://youtu.be/HxDfGHwDSmc)
 * [OpenCV 프로젝트 만들기: HelloCV](https://youtu.be/fKWQIPwNsc8)
