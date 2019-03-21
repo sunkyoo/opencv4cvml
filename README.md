@@ -1,7 +1,6 @@
-## "OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝" (길벗, 2019) 
+## 『OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝』 (길벗, 2019) 
 
-![Title](/docs/title.png)
-
+[![Title](/docs/title.png)](https://sunkyoo.github.io/opencv4cvml/)
 
 책 소개와 예제 코드, 동영상 강의 등의 자료는 [**[링크]**](https://sunkyoo.github.io/opencv4cvml/)를 참고하세요.
 
