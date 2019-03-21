@@ -1,26 +1,8 @@
 ## ■ 『OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝』(길벗, 2019) 소개
 
-『OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝』(길벗, 2019) 책은 2019년 4월 초에 출간 예정입니다. 페이지 수는 약 580이고, 목차는 다음과 같습니다. 
-```
-  1. 컴퓨터 비전과 영상의 이해
-  2. OpenCV 설치와 기초 사용법
-  3. OpenCV 주요 클래스
-  4. OpenCV 주요 기능
-  5. 영상의 밝기와 명암비 조절
-  6. 산술 및 논리 연산
-  7. 필터링
-  8. 기하학적 변환
-  9. 엣지 검출과 응용
-  10. 컬러 영상 처리
-  11. 이진화와 모폴로지
-  12. 레이블링과 외곽선 검출
-  13. 객체 검출
-  14. 지역 특징점 검출과 매칭
-  15. 머신러닝
-  16. 딥러닝과 OpenCV
-  17. [부록A] OpenCV 소스 코드 빌드하여 설치하기
-  18. [부록B] 리눅스에서 OpenCV 설치하고 사용하기
-```
+『OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝』(길벗, 2019) 책은 2019년 4월 초에 출간 예정입니다. 페이지 수는 약 580이고, 목차는 다음과 같습니다.
+
+![Title](title_contents.png)
 
 ## ■ 예제 소스 코드 다운로드 (Example Source Code Downloads)
 
@@ -32,21 +14,21 @@
 
 책에서 설명하지 않은 Visual Studio 설치 방법과 초보자가 따라하기 어려울 수 있는 내용을 선별하여 동영상 강의를 제공합니다.
 
-1. Visual Studio 2017 설치하기 [[링크]](https://youtu.be/jzVNiMeVcvs)
-2. OpenCV 설치 실행 파일로 설치하기 [[링크]](https://youtu.be/HxDfGHwDSmc)
-3. OpenCV 프로젝트 만들기: HelloCV [[링크]](https://youtu.be/fKWQIPwNsc8)
-4. 영상을 화면에 출력하기 [[링크]](https://youtu.be/gcgScMU0XWE)
-5. OpenCV 소스 코드 빌드하여 설치하기 [[링크]](https://youtu.be/ac75cFPYlOQ)
+1. Visual Studio 2017 설치하기 [[링크]](https://youtu.be/jzVNiMeVcvs){:target="_blank"}
+2. OpenCV 설치 실행 파일로 설치하기 [[링크]](https://youtu.be/HxDfGHwDSmc){:target="_blank"}
+3. OpenCV 프로젝트 만들기: HelloCV [[링크]](https://youtu.be/fKWQIPwNsc8){:target="_blank"}
+4. 영상을 화면에 출력하기 [[링크]](https://youtu.be/gcgScMU0XWE){:target="_blank"}
+5. OpenCV 소스 코드 빌드하여 설치하기 [[링크]](https://youtu.be/ac75cFPYlOQ){:target="_blank"}
 
 
-## ■ 관련 강의
+## ■ 관련 강의 (Related lecture)
 
-"OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝" 책은 패스트캠퍼스에서 진행 중인 "OpenCV로 배우는 컴퓨터 비전과 머신 러닝" 강의 내용을 기반으로 출간되었습니다. 패스트캠퍼스 강의는 아래 링크를 참고하기 바랍니다.
+"OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝" 책은 패스트캠퍼스에서 진행 중인 "OpenCV로 배우는 컴퓨터 비전 프로그래밍" 강의 내용을 기반으로 출간되었습니다. 패스트캠퍼스 강의는 아래 링크를 참고하기 바랍니다.
 
-[[패스트캠퍼스 ""OpenCV로 배우는 컴퓨터 비전과 머신 러닝" 캠프]](https://www.fastcampus.co.kr/dev_camp_cvocv/){:target="_blank"} 
+[[패스트캠퍼스 ""OpenCV로 배우는 컴퓨터 비전 프로그래밍 캠프"]](https://www.fastcampus.co.kr/dev_camp_cvocv/){:target="_blank"}
 
 
 ## ■ 오탈자 (Errata)
 오탈자 목록은 아래 길벗 출판사에서 확인할 수 있습니다.
 
-[[길벗]](https://www.gilbut.co.kr/){:target="_blank"} 
+[[길벗]](https://www.gilbut.co.kr/){:target="_blank"}

@@ -1,11 +1,24 @@
-# OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝
-![Title](/docs/title.jpg)
+## "OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝" (길벗, 2019) 
+---
 
-"OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝" (길벗, 2019) 책 소스 코드와 관련 자료입니다.
+![Title](./docs/title_contents.png)
 
-# 관련 동영상
-* [Visual Studio 2017 설치하기](https://youtu.be/jzVNiMeVcvs)
-* [OpenCV 설치 실행 파일로 설치하기](https://youtu.be/HxDfGHwDSmc)
-* [OpenCV 프로젝트 만들기: HelloCV](https://youtu.be/fKWQIPwNsc8)
-* [영상을 화면에 출력하기](https://youtu.be/gcgScMU0XWE)
-* [OpenCV 소스 코드 빌드하여 설치하기](https://youtu.be/ac75cFPYlOQ)
+
+책 관련 자료는 [**링크**](https://sunkyoo.github.io/opencv4cvml/)를 참고하세요.
+
+
+## 소스 코드 빌드 방법
+---
+* Windows & Visual Studio 2017
+    ```
+    * Visual Studio 2017에서 *.sln 파일을 불러온 후 [빌드] -> [솔루션 빌드] 메뉴를 선택하세요.
+    * 프로그램 실행은 [디버그] -> [디버그하지 않고 시작] 메뉴를 선택하세요.
+    ```
+
+* Linux
+    ```bash
+    $ cd <project>
+    $ cmake .
+    $ make
+    $ ./project
+    ```
