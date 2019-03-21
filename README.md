@@ -1,14 +1,13 @@
 ## "OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝" (길벗, 2019) 
----
 
-![Title](./docs/title_contents.png)
-
-
-책 관련 자료는 [**링크**](https://sunkyoo.github.io/opencv4cvml/)를 참고하세요.
+![Title](/docs/title.png)
 
 
-## 소스 코드 빌드 방법
----
+책 소개와 예제 코드, 동영상 강의 등의 자료는 [**[링크]**](https://sunkyoo.github.io/opencv4cvml/)를 참고하세요.
+
+
+## 소스 코드 빌드 및 실행 방법
+
 * Windows & Visual Studio 2017
     ```
     * Visual Studio 2017에서 *.sln 파일을 불러온 후 [빌드] -> [솔루션 빌드] 메뉴를 선택하세요.
@@ -20,5 +19,5 @@
     $ cd <project>
     $ cmake .
     $ make
-    $ ./project
+    $ ./<project>
     ```

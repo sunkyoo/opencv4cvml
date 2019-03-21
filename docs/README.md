@@ -23,12 +23,8 @@
 
 ## ■ 관련 강의 (Related lecture)
 
-"OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝" 책은 패스트캠퍼스에서 진행 중인 "OpenCV로 배우는 컴퓨터 비전 프로그래밍" 강의 내용을 기반으로 출간되었습니다. 패스트캠퍼스 강의는 아래 링크를 참고하기 바랍니다.
-
-[[패스트캠퍼스 ""OpenCV로 배우는 컴퓨터 비전 프로그래밍 캠프"]](https://www.fastcampus.co.kr/dev_camp_cvocv/){:target="_blank"}
-
+"OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝" 책은 패스트캠퍼스에서 진행 중인 [[OpenCV로 배우는 컴퓨터 비전 프로그래밍]](https://www.fastcampus.co.kr/dev_camp_cvocv/){:target="_blank"} 강의 내용을 기반으로 출간되었습니다. 패스트캠퍼스 강의는 [[링크]](https://www.fastcampus.co.kr/dev_camp_cvocv/){:target="_blank"}를 참고하기 바랍니다.
 
 ## ■ 오탈자 (Errata)
-오탈자 목록은 아래 길벗 출판사에서 확인할 수 있습니다.
+오탈자 목록은 아래 [[길벗]](https://www.gilbut.co.kr/){:target="_blank"} 출판사에서 확인할 수 있습니다.
 
-[[길벗]](https://www.gilbut.co.kr/){:target="_blank"}
