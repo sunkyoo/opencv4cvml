@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coloreq", "coloreq.vcxproj", "{24976E9D-1F14-44AB-8252-62E616AAB389}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24976E9D-1F14-44AB-8252-62E616AAB389}.Debug|x64.ActiveCfg = Debug|x64
+		{24976E9D-1F14-44AB-8252-62E616AAB389}.Debug|x64.Build.0 = Debug|x64
+		{24976E9D-1F14-44AB-8252-62E616AAB389}.Debug|x86.ActiveCfg = Debug|Win32
+		{24976E9D-1F14-44AB-8252-62E616AAB389}.Debug|x86.Build.0 = Debug|Win32
+		{24976E9D-1F14-44AB-8252-62E616AAB389}.Release|x64.ActiveCfg = Release|x64
+		{24976E9D-1F14-44AB-8252-62E616AAB389}.Release|x64.Build.0 = Release|x64
+		{24976E9D-1F14-44AB-8252-62E616AAB389}.Release|x86.ActiveCfg = Release|Win32
+		{24976E9D-1F14-44AB-8252-62E616AAB389}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F231B9B-C384-48BF-BF2B-BA6E999BA23B}
+	EndGlobalSection
+EndGlobal

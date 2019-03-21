@@ -1,0 +1,5 @@
+아래 링크에서 모델 파일을 내려받아 프로젝트 폴더에 복사하세요.
+http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel
+
+참고로 deploy.prototxt 파일은 아래 링크에서 참고할 수 있습니다.
+https://raw.githubusercontent.com/BVLC/caffe/master/models/bvlc_googlenet/deploy.prototxt
