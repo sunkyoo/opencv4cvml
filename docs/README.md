@@ -2,7 +2,7 @@
 
 『OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝』(길벗, 2019) 책은 2019년 4월 초에 출간 예정입니다. 페이지 수는 약 580이고, 목차는 다음과 같습니다.
 
-![Title](/docs/title_contents.png)
+![Title](title_contents.png)
 
 ## ■ 예제 소스 코드 다운로드
 
