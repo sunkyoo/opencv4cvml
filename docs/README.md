@@ -19,6 +19,7 @@
 * OpenCV 프로젝트 만들기: HelloCV [![Youtube](youtube_icon.png)](https://youtu.be/fKWQIPwNsc8) [[링크]](https://youtu.be/fKWQIPwNsc8){:target="_blank"}
 * 영상을 화면에 출력하기 [![Youtube](youtube_icon.png)](https://youtu.be/gcgScMU0XWE) [[링크]](https://youtu.be/gcgScMU0XWE){:target="_blank"}
 * OpenCV 소스 코드 빌드하여 설치하기 [![Youtube](youtube_icon.png)](https://youtu.be/ac75cFPYlOQ) [[링크]](https://youtu.be/ac75cFPYlOQ){:target="_blank"}
+* 텐서플로로 필기체 인식 학습하고 OpenCV에서 사용하기 [![Youtube](youtube_icon.png)](https://youtu.be/4FLAp9nXlyo) [[링크]](https://youtu.be/4FLAp9nXlyo){:target="_blank"}
 
 
 ## ■ 오프라인 강의
