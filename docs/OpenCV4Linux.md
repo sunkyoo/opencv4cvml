@@ -129,7 +129,7 @@ $ sudo make install
 $ sudo ldconfig
 ```
 
-이제 OpenCV 라이브러리를 빌드하고 설치하는 작업이 모두 완료되었습니다. 에러가 발생하지않고 정상적으로 설치되었다면 pkg-config --list-all | grep opencv 명령어를 입력하였을 때 다음과 같이 opencv4 메시지가 출력됩니다.
+이제 OpenCV 라이브러리를 빌드하고 설치하는 작업이 모두 완료되었습니다. 아래 명령어를 입력하였을 때 opencv4 메시지가 출력되면 정상입니다.
 
 ```
 $ pkg-config --list-all | grep opencv
