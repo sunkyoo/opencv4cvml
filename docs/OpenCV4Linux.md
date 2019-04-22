@@ -33,30 +33,23 @@ $ sudo apt -y install libxine2-dev libv4l-dev v4l-utils
 $ sudo apt -y install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
 ```
 
-GUI 환경에서 영상을 새 창에 띄워서 보여주기 위해 필요한 그래픽 툴킷을 설치합니다. 그래픽 툴킷은 gtk 또는 qt 등을 선택할 수 있으며, 이 책에서는 GTK 3 패키지를 사용합니다. 
+GUI 환경에서 영상을 새 창에 띄워서 보여주기 위해 필요한 그래픽 툴킷을 설치합니다. 그래픽 툴킷은 gtk 또는 qt 등을 선택할 수 있으며, 이 책에서는 GTK 3 패키지를 사용합니다.
+
 ```bash
 $ sudo apt -y install libgtk-3-dev
 ```
 
 OpenCV에서 함께 사용할 최적화 관련 패키지와 Python3 개발 환경을 위한 패키지를 설치합니다.
+
 ```bash
 $ sudo apt -y install libatlas-base-dev libeigen3-dev gfortran
 $ sudo apt -y install python3-dev python3-numpy libtbb2 libtbb-dev
 ```
 
-정지 영상 파일을 불러오거나 저장하기 위해 필요한 패키지를 설치합니다.
-```bash
-$ sudo apt -y install libjpeg-dev libtiff5-dev libpng-dev
-```
-
-정지 영상 파일을 불러오거나 저장하기 위해 필요한 패키지를 설치합니다.
-```bash
-$ sudo apt -y install libjpeg-dev libtiff5-dev libpng-dev
-```
-
 ## OpenCV 소스 코드 다운받아 빌드하기
 
-OpenCV 소스 코드 다운로드 및 빌드 작업은 사용자 계정 홈 디렉터리 아래에 opencv 디렉터리를 만들고, 그 아래에서 진행하겠습니다. 
+OpenCV 소스 코드 다운로드 및 빌드 작업은 사용자 계정 홈 디렉터리 아래에 opencv 디렉터리를 만들고, 그 아래에서 진행하겠습니다.
+
 ```bash
 $ cd ~
 $ mkdir opencv
