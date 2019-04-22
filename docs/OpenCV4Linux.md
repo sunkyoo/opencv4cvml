@@ -28,7 +28,6 @@ $ sudo apt -y install libjpeg-dev libtiff5-dev libpng-dev
 ```bash
 $ sudo apt -y install libavcodec-dev libavformat-dev libswscale-dev
 $ sudo apt -y install libdc1394-22-dev libxvidcore-dev libx264-dev
-$ sudo apt -y install libdc1394-22-dev libxvidcore-dev libx264-dev
 $ sudo apt -y install libxine2-dev libv4l-dev v4l-utils
 $ sudo apt -y install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
 ```
