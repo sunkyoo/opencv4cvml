@@ -20,7 +20,7 @@
 * OpenCV 소스 코드 빌드하여 설치하기 [![Youtube](youtube_icon.png)](https://youtu.be/ac75cFPYlOQ) [[동영상]](https://youtu.be/ac75cFPYlOQ){:target="_blank"}
 * 텐서플로로 필기체 인식 학습하고 OpenCV에서 사용하기 [![Youtube](youtube_icon.png)](https://youtu.be/4FLAp9nXlyo) [[동영상]](https://youtu.be/4FLAp9nXlyo){:target="_blank"}
 * 딥러닝 학습 모델을 가져와서 OpenCV에서 실행하기 [![Youtube](youtube_icon.png)](https://youtu.be/DteTXf4_pcA) [[동영상]](https://youtu.be/DteTXf4_pcA){:target="_blank"}
-* 리눅스에서 OpenCV 설치하기 [![Youtube](youtube_icon.png)](https://youtu.be/3RcQf0hJdFM) [[동영상]](OpenCV4Linux.md){:target="_blank"} / [[문서]](OpenCV4Linux.md){:target="_blank"}
+* 리눅스에서 OpenCV 설치하기 [![Youtube](youtube_icon.png)](https://youtu.be/3RcQf0hJdFM) [[동영상]](https://youtu.be/3RcQf0hJdFM){:target="_blank"} / [[문서]](OpenCV4Linux.md){:target="_blank"}
 
 ## 오프라인 강의
 
