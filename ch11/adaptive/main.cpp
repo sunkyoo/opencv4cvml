@@ -35,7 +35,7 @@ void on_trackbar(int pos, void* userdata)
 
 	Mat dst;
 	adaptiveThreshold(src, dst, 255, ADAPTIVE_THRESH_GAUSSIAN_C, THRESH_BINARY, 
-					  bsize, 2);
+					  bsize, 5);
 
 	imshow("dst", dst);
 }
