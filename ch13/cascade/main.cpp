@@ -40,7 +40,7 @@ void detect_face()
 
 	imshow("src", src);
 
-	waitKey(0);
+	waitKey();
 	destroyAllWindows();
 }
 
@@ -79,6 +79,6 @@ void detect_eyes()
 
 	imshow("src", src);
 
-	waitKey(0);
+	waitKey();
 	destroyAllWindows();
 }

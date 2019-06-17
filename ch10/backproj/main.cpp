@@ -34,7 +34,7 @@ int main()
 
 	imshow("src", src);
 	imshow("backproj", backproj);
-	waitKey(0);
+	waitKey();
 
 	return 0;
 }

@@ -50,7 +50,7 @@ void corner_harris()
 	imshow("harris_norm", harris_norm);
 	imshow("dst", dst);
 
-	waitKey(0);
+	waitKey();
 	destroyAllWindows();
 }
 
@@ -77,7 +77,7 @@ void corner_fast()
 	imshow("src", src);
 	imshow("dst", dst);
 
-	waitKey(0);
+	waitKey();
 	destroyAllWindows();
 }
 

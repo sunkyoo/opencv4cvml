@@ -34,7 +34,7 @@ void mask_setTo()
 	imshow("src", src);
 	imshow("mask", mask);
 
-	waitKey(0);
+	waitKey();
 	destroyAllWindows();
 }
 
@@ -55,7 +55,7 @@ void mask_copyTo()
 	imshow("dst", dst);
 	imshow("mask", mask);
 
-	waitKey(0);
+	waitKey();
 	destroyAllWindows();
 }
 

@@ -26,7 +26,7 @@ int main(int argc, char* argv[])
 	createTrackbar("Threshold", "dst", 0, 255, on_threshold, (void*)&src);
 	setTrackbarPos("Threshold", "dst", 128);
 
-	waitKey(0);
+	waitKey();
 	return 0;
 }
 

@@ -55,6 +55,6 @@ int main(int argc, char* argv[])
 
 	imshow("img", img);
 
-	waitKey(0);
+	waitKey();
 	return 0;
 }

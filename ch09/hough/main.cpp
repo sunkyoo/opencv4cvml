@@ -49,7 +49,7 @@ void hough_lines()
 	imshow("src", src);
 	imshow("dst", dst);
 
-	waitKey(0);
+	waitKey();
 	destroyAllWindows();
 }
 
@@ -78,7 +78,7 @@ void hough_line_segments()
 	imshow("src", src);
 	imshow("dst", dst);
 
-	waitKey(0);
+	waitKey();
 	destroyAllWindows();
 }
 
@@ -109,6 +109,6 @@ void hough_circles()
 	imshow("src", src);
 	imshow("dst", dst);
 
-	waitKey(0);
+	waitKey();
 	destroyAllWindows();
 }

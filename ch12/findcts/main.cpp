@@ -38,7 +38,7 @@ void contours_basic()
 	imshow("src", src);
 	imshow("dst", dst);
 
-	waitKey(0);
+	waitKey();
 	destroyAllWindows();
 }
 
@@ -66,6 +66,6 @@ void contours_hier()
 	imshow("src", src);
 	imshow("dst", dst);
 
-	waitKey(0);
+	waitKey();
 	destroyAllWindows();
 }

@@ -22,7 +22,7 @@ int main()
 	setMouseCallback("src", on_mouse);
 
 	imshow("src", src);
-	waitKey(0);
+	waitKey();
 
 	return 0;
 }

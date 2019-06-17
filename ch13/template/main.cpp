@@ -44,6 +44,6 @@ void template_matching()
 	imshow("res_norm", res_norm);
 	imshow("img", img);
 
-	waitKey(0);
+	waitKey();
 	destroyAllWindows();
 }

@@ -23,7 +23,7 @@ int main()
 	setMouseCallback("img", on_mouse, (void*)&img);
 
 	while (true) {
-		int c = waitKey(0);
+		int c = waitKey();
 		
 		if (c == 27) {
 			break;

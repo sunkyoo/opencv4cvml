@@ -30,6 +30,6 @@ int main(void)
 	imshow("src", src);
 	imshow("dst", dst);
 
-	waitKey(0);
+	waitKey();
 	return 0;
 }

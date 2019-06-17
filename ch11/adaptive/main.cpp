@@ -21,7 +21,7 @@ int main()
 	createTrackbar("Block Size", "dst", 0, 200, on_trackbar, (void*)&src);
 	setTrackbarPos("Block Size", "dst", 11);
 
-	waitKey(0);
+	waitKey();
 	return 0;
 }
 

@@ -27,7 +27,7 @@ int main(int argc, char* argv[])
 	createTrackbar("Upper Hue", "mask", &upper_hue, 179, on_hue_changed);
 	on_hue_changed(0, 0);
 
-	waitKey(0);
+	waitKey();
 	return 0;
 }
 
