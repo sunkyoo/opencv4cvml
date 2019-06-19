@@ -87,6 +87,11 @@ void useful_func()
 {
 	Mat img = imread("lenna.bmp", IMREAD_GRAYSCALE);
 
+	if (src.empty()) {
+		cerr << "Image load failed!" << endl;
+		return;
+	}
+
 	cout << "Sum: " << (int)sum(img)[0] << endl;
 	cout << "Mean: " << (int)mean(img)[0] << endl;
 
