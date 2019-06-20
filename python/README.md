@@ -40,4 +40,4 @@
 
 ## 스크린샷
 
-![ScreenShot](screenshot.png)
+![ScreenShot](Screenshot.png)
