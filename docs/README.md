@@ -18,13 +18,15 @@
 이 책의 예제 프로그램은 Microsoft Windows 10(64비트), Visual Studio Community 2017, OpenCV 4.0.0을 기준으로 작성되었습니다. 책의 부록B의 설명하는 리눅스에서 OpenCV 사용법은 Ubuntu 18.04.2를 기준으로 설명합니다.
 
 * Windows & Visual Studio 2017
-    ```
+
+    ```bash
     * 시스템 환경 변수에 OPENCV_DIR을 OpenCV 설치 폴더로 지정하세요. (책 '2.1.2절 OpenCV 설치하기' 참조)
     * Visual Studio 2017에서 *.sln 파일을 불러온 후 [빌드] -> [솔루션 빌드] 메뉴를 선택하세요.
     * 프로그램 실행은 [디버그] -> [디버그하지 않고 시작] 메뉴를 선택하세요.
     ```
 
 * Linux
+
     ```bash
     $ cd <project>
     $ cmake .
