@@ -56,7 +56,7 @@
 
 ## 오프라인 강의
 
-『OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝』 책은 패스트캠퍼스에서 진행 중인 [[OpenCV로 배우는 컴퓨터 비전 프로그래밍]](https://www.fastcampus.co.kr/dev_camp_cvocv/){:target="_blank"} 강의 내용을 기반으로 출간되었습니다. 오프라인 강의에서는 이 책에서 설명하는 내용과 실무에서 OpenCV를 사용하기 위해 필요한 기법을 추가적으로 다루고 있습니다. 패스트캠퍼스 강의는 [[링크]](https://www.fastcampus.co.kr/dev_camp_cvocv/){:target="_blank"}를 참고하세요.
+『OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝』 책은 패스트캠퍼스에서 진행 중인 [[OpenCV로 배우는 컴퓨터 비전 프로그래밍]](https://www.fastcampus.co.kr/dev_camp_cvocv/){:target="_blank"} 강의 내용을 기반으로 출간되었습니다. 오프라인 강의에서는 이 책에서 설명하는 내용과 더불어 실무에서 OpenCV를 사용하기 위해 필요한 기법을 추가적으로 다루고 있습니다. 패스트캠퍼스 강의는 [[링크]](https://www.fastcampus.co.kr/dev_camp_cvocv/){:target="_blank"}를 참고하세요.
 
 ## 오탈자 (Errata)
 
