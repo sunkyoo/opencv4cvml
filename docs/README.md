@@ -2,7 +2,7 @@
 
 <h3>컴퓨터 비전과 머신 러닝의 원리를 이해하고 OpenCV 코딩 스킬을 제대로 익히자!</h3>
 
-『OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝』(길벗, 2019) 책은 컴퓨터 비전과 머신 러닝 알고리즘을 소개하고, OpenCV 라이브러리를 이용하여 구현하는 방법을 설명합니다. 저자의 오랜 OpenCV 강의 경험을 바탕으로 초보자도 쉽게 이해할 수 있는 커리큘럼과 실습 예제를 제공합니다. 간단한 밝기와 명암비 조절, 필터링, 에지 검출부터 객체 검출, 영상 매칭, 필기체 숫자 인식 등 컴퓨커 비전 고급 기법까지 OpenCV를 사용하여 구현합니다. 또한 k 최근방 이웃(kNN), 서포트 벡터 머신(SVM) 등의 머신 러닝 알고리즘과 OpenCV에서 딥러닝을 활용하는 방법까지 설명합니다.
+『OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝』(길벗, 2019) 책은 컴퓨터 비전과 머신 러닝 알고리즘을 소개하고, OpenCV 라이브러리를 이용하여 구현하는 방법을 설명합니다. 저자의 오랜 OpenCV 강의 경험을 바탕으로 초보자도 쉽게 이해할 수 있는 커리큘럼과 실습 예제를 제공합니다. 간단한 밝기와 명암비 조절, 필터링, 에지 검출부터 객체 검출, 영상 매칭, 필기체 숫자 인식 등 컴퓨터 비전 고급 기법까지 OpenCV를 사용하여 구현합니다. 또한 k 최근방 이웃(kNN), 서포트 벡터 머신(SVM) 등의 머신 러닝 알고리즘과 OpenCV에서 딥러닝을 활용하는 방법까지 설명합니다.
 
 [![Title](title_contents.png)](http://www.yes24.com/Product/Goods/71829618)
 
@@ -15,7 +15,7 @@
 
 ## 소스 코드 빌드 및 실행 방법
 
-이 책의 예제 프로그램은 Microsoft Windows 10(64비트), Visual Studio Community 2017, OpenCV 4.0.0을 기준으로 작성되었습니다. 책의 부록B의 설명하는 리눅스에서 OpenCV 사용법은 Ubuntu 18.04.2를 기준으로 설명합니다.
+이 책의 예제 프로그램은 Microsoft Windows 10(64비트), Visual Studio Community 2017, OpenCV 4.0.0을 기준으로 작성되었습니다. 책 부록B "리눅스에서 OpenCV 설치하고 사용하기"는 Ubuntu 18.04.2를 기준으로 설명합니다.
 
 * Windows & Visual Studio 2017
 
@@ -56,7 +56,7 @@
 
 ## 오프라인 강의
 
-"OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝" 책은 패스트캠퍼스에서 진행 중인 [[OpenCV로 배우는 컴퓨터 비전 프로그래밍]](https://www.fastcampus.co.kr/dev_camp_cvocv/){:target="_blank"} 강의 내용을 기반으로 출간되었습니다. 패스트캠퍼스 강의는 [[링크]](https://www.fastcampus.co.kr/dev_camp_cvocv/){:target="_blank"}를 참고하기 바랍니다.
+『OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝』 책은 패스트캠퍼스에서 진행 중인 [[OpenCV로 배우는 컴퓨터 비전 프로그래밍]](https://www.fastcampus.co.kr/dev_camp_cvocv/){:target="_blank"} 강의 내용을 기반으로 출간되었습니다. 오프라인 강의에서는 이 책에서 설명하는 내용과 실무에서 OpenCV를 사용하기 위해 필요한 기법을 추가적으로 다루고 있습니다. 패스트캠퍼스 강의는 [[링크]](https://www.fastcampus.co.kr/dev_camp_cvocv/){:target="_blank"}를 참고하세요.
 
 ## 오탈자 (Errata)
 
