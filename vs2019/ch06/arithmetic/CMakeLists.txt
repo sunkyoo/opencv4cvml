@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(arithmetic)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable(arithmetic main.cpp)
+target_link_libraries(arithmetic ${OpenCV_LIBS})
