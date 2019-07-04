@@ -87,7 +87,7 @@ void useful_func()
 {
 	Mat img = imread("lenna.bmp", IMREAD_GRAYSCALE);
 
-	if (src.empty()) {
+	if (img.empty()) {
 		cerr << "Image load failed!" << endl;
 		return;
 	}
