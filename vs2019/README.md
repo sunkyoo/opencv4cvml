@@ -40,10 +40,6 @@
 
 파이썬 소스 코드는 [[여기]](https://github.com/sunkyoo/opencv4cvml/tree/master/python)에서 확인할 수 있습니다.
 
-## Visual Studio 2019 예제 소스 코드
-
-2019년 6월에 출시된 Visual Studio 2019 버전 사용자를 위한 예제 프로젝트 파일과 솔루션 파일을 새롭게 제공합니다. Visual Studio 2019를 사용하는 분들은 [vs2019](https://github.com/sunkyoo/opencv4cvml/tree/master/vs2019) 하위 폴더에 있는 파일을 사용하세요.
-
 ## 동영상 강의
 
 책에서 설명하지 않은 Visual Studio 설치 방법과 일부 책 내용에 대한 동영상 강의를 제공합니다.
