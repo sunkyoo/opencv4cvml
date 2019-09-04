@@ -62,7 +62,27 @@ def brightness3():
     cv.destroyAllWindows()
 
 
+def brightness4():
+    src = cv.imread('lenna.bmp', cv.IMREAD_GRAYSCALE)
+
+    if src is None:
+        print('Image load failed!')
+        return
+
+    def update(pos):
+        dst = cv.add(src, pos)
+        cv.imshow('dst', dst)
+
+    cv.namedWindow('dst')
+    cv.createTrackbar('Brightness', 'dst', 0, 100, update)
+    update(0)
+
+    cv.waitKey()
+    cv.destroyAllWindows()
+
+
 if __name__ == '__main__':
     brightness1()
     brightness2()
     brightness3()
+    brightness4()
