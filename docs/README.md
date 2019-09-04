@@ -48,15 +48,16 @@
 
 책에서 설명하지 않은 Visual Studio 설치 방법과 일부 책 내용에 대한 동영상 강의를 제공합니다.
 
-* Visual Studio 2017 설치하기 [![Youtube](youtube_icon.png)](https://youtu.be/jzVNiMeVcvs) [[동영상]](https://youtu.be/jzVNiMeVcvs){:target="_blank"}
-* OpenCV 설치 실행 파일로 설치하기 [![Youtube](youtube_icon.png)](https://youtu.be/HxDfGHwDSmc) [[동영상]](https://youtu.be/HxDfGHwDSmc){:target="_blank"}
-* OpenCV 프로젝트 만들기: HelloCV [![Youtube](youtube_icon.png)](https://youtu.be/fKWQIPwNsc8) [[동영상]](https://youtu.be/fKWQIPwNsc8){:target="_blank"}
-* 영상을 화면에 출력하기 [![Youtube](youtube_icon.png)](https://youtu.be/gcgScMU0XWE) [[동영상]](https://youtu.be/gcgScMU0XWE){:target="_blank"}
-* OpenCV 소스 코드 빌드하여 설치하기 [![Youtube](youtube_icon.png)](https://youtu.be/ac75cFPYlOQ) [[동영상]](https://youtu.be/ac75cFPYlOQ){:target="_blank"}
-* 텐서플로로 필기체 인식 학습하고 OpenCV에서 사용하기 [![Youtube](youtube_icon.png)](https://youtu.be/4FLAp9nXlyo) [[동영상]](https://youtu.be/4FLAp9nXlyo){:target="_blank"}
-* 딥러닝 학습 모델을 가져와서 OpenCV에서 실행하기 [![Youtube](youtube_icon.png)](https://youtu.be/DteTXf4_pcA) [[동영상]](https://youtu.be/DteTXf4_pcA){:target="_blank"}
-* 리눅스에서 OpenCV 설치하기 [![Youtube](youtube_icon.png)](https://youtu.be/3RcQf0hJdFM) [[동영상]](https://youtu.be/3RcQf0hJdFM){:target="_blank"} / [[문서]](OpenCV4Linux.md){:target="_blank"}
-* Visual Studio 2017 다운로드 방법 (2019년 6월 기준) [![Youtube](youtube_icon.png)](https://youtu.be/SRzKtZBMIIY) [[동영상]](https://youtu.be/SRzKtZBMIIY){:target="_blank"}
+* [준비사항] Visual Studio 2017 설치하기 [![Youtube](youtube_icon.png)](https://youtu.be/jzVNiMeVcvs) [[동영상]](https://youtu.be/jzVNiMeVcvs){:target="_blank"}
+* [준비사항] Visual Studio 2017 다운로드 방법 (2019년 6월 기준) [![Youtube](youtube_icon.png)](https://youtu.be/SRzKtZBMIIY) [[동영상]](https://youtu.be/SRzKtZBMIIY){:target="_blank"}
+* [2.1.2] OpenCV 설치하기 [![Youtube](youtube_icon.png)](https://youtu.be/HxDfGHwDSmc) [[동영상]](https://youtu.be/HxDfGHwDSmc){:target="_blank"}
+* [2.2.1] OpenCV 프로젝트 만들기 [![Youtube](youtube_icon.png)](https://youtu.be/fKWQIPwNsc8) [[동영상]](https://youtu.be/fKWQIPwNsc8){:target="_blank"}
+* [2.2.2] 영상을 화면에 출력하기 [![Youtube](youtube_icon.png)](https://youtu.be/gcgScMU0XWE) [[동영상]](https://youtu.be/gcgScMU0XWE){:target="_blank"}
+* [5.1.4] 트랙바를 이용한 영상의 밝기 조절 [![Youtube](youtube_icon.png)](https://youtu.be/znXuTOLs-4c) [[동영상]](https://youtu.be/znXuTOLs-4c){:target="_blank"}
+* [16.2] 딥러닝 학습과 OpenCV 실행 [![Youtube](youtube_icon.png)](https://youtu.be/4FLAp9nXlyo) [[동영상]](https://youtu.be/4FLAp9nXlyo){:target="_blank"}
+* [16.3] OpenCV와 딥러닝 활용 [![Youtube](youtube_icon.png)](https://youtu.be/DteTXf4_pcA) [[동영상]](https://youtu.be/DteTXf4_pcA){:target="_blank"}
+* [부록A] OpenCV 소스 코드 빌드하여 설치하기 [![Youtube](youtube_icon.png)](https://youtu.be/ac75cFPYlOQ) [[동영상]](https://youtu.be/ac75cFPYlOQ){:target="_blank"}
+* [부록B] 리눅스에서 OpenCV 설치하고 사용하기 [![Youtube](youtube_icon.png)](https://youtu.be/3RcQf0hJdFM) [[동영상]](https://youtu.be/3RcQf0hJdFM){:target="_blank"} / [[문서]](OpenCV4Linux.md){:target="_blank"}
 
 ## 오프라인 강의
 
