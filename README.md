@@ -50,7 +50,7 @@
 * [16.2] 딥러닝 학습과 OpenCV 실행 [![Youtube](./docs/youtube_icon.png)](https://youtu.be/4FLAp9nXlyo) [[동영상]](https://youtu.be/4FLAp9nXlyo)
 * [16.3] OpenCV와 딥러닝 활용 [![Youtube](./docs/youtube_icon.png)](https://youtu.be/DteTXf4_pcA) [[동영상]](https://youtu.be/DteTXf4_pcA)
 * [부록A] OpenCV 소스 코드 빌드하여 설치하기 [![Youtube](./docs/youtube_icon.png)](https://youtu.be/ac75cFPYlOQ) [[동영상]](https://youtu.be/ac75cFPYlOQ)
-* [부록B] 리눅스에서 OpenCV 설치하고 사용하기 [![Youtube](./docs/youtube_icon.png)](https://youtu.be/3RcQf0hJdFM) [[동영상]](https://youtu.be/3RcQf0hJdFM) / [[문서]](OpenCV4Linux.md)
+* [부록B] 리눅스에서 OpenCV 설치하고 사용하기 [![Youtube](./docs/youtube_icon.png)](https://youtu.be/3RcQf0hJdFM) [[동영상]](https://youtu.be/3RcQf0hJdFM) / [[문서]](./docs/OpenCV4Linux.md)
 
 ## 오프라인 강의
 
