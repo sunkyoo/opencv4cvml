@@ -59,6 +59,15 @@
 * [부록A] OpenCV 소스 코드 빌드하여 설치하기 [![Youtube](youtube_icon.png)](https://youtu.be/ac75cFPYlOQ) [[동영상]](https://youtu.be/ac75cFPYlOQ){:target="_blank"}
 * [부록B] 리눅스에서 OpenCV 설치하고 사용하기 [![Youtube](youtube_icon.png)](https://youtu.be/3RcQf0hJdFM) [[동영상]](https://youtu.be/3RcQf0hJdFM){:target="_blank"} / [[문서]](OpenCV4Linux.md){:target="_blank"}
 
+OpenCV 프로그램 개발을 위해 필요한 몇몇 C++ 문법 동영상 강의도 제공합니다.
+
+* 연산자 오버로딩 [![Youtube](youtube_icon.png)](https://youtu.be/vOxIJLGl_xo) [[동영상]](https://youtu.be/vOxIJLGl_xo){:target="_blank"}
+* std::vector 클래스 [![Youtube](youtube_icon.png)](https://youtu.be/6Qba8vfg2AI) [[동영상]](https://youtu.be/6Qba8vfg2AI){:target="_blank"}
+* 범위 기반 for [![Youtube](youtube_icon.png)](https://youtu.be/M3BBJTfWkgM) [[동영상]](https://youtu.be/M3BBJTfWkgM){:target="_blank"}
+* std::sort() 함수 [![Youtube](youtube_icon.png)](https://youtu.be/9j4y1EhsOf0) [[동영상]](https://youtu.be/9j4y1EhsOf0){:target="_blank"}
+* 람다 표현식 [![Youtube](youtube_icon.png)](https://youtu.be/faKvuQFBHE4) [[동영상]](https://youtu.be/faKvuQFBHE4){:target="_blank"}
+* 스마트 포인터 [![Youtube](youtube_icon.png)](https://youtu.be/-tb-LQeiSKA) [[동영상]](https://youtu.be/-tb-LQeiSKA){:target="_blank"}
+
 ## 오프라인 강의
 
 『OpenCV 4로 배우는 컴퓨터 비전과 머신 러닝』 책은 패스트캠퍼스에서 진행 중인 [[OpenCV로 배우는 컴퓨터 비전 프로그래밍]](https://www.fastcampus.co.kr/dev_camp_cvocv/){:target="_blank"} 강의 내용을 기반으로 출간되었습니다. 오프라인 강의에서는 이 책에서 설명하는 내용과 더불어 실무에서 OpenCV를 사용하기 위해 필요한 기법을 추가적으로 다루고 있습니다. 패스트캠퍼스 강의는 [[링크]](https://www.fastcampus.co.kr/dev_camp_cvocv/){:target="_blank"}를 참고하세요.
