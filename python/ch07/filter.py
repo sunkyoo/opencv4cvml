@@ -1,8 +1,8 @@
 import numpy as np
-import cv2 as cv
+import cv2
 
 
-src = cv.imread('rose.bmp', cv.IMREAD_GRAYSCALE)
+src = cv2.imread('rose.bmp', cv2.IMREAD_GRAYSCALE)
 
 if src is None:
     print('Image load failed!')
@@ -12,10 +12,10 @@ emboss = np.array([[-1, -1, 0],
                    [-1, 0, 1],
                    [0, 1, 1]], np.float32)
 
-dst = cv.filter2D(src, -1, emboss, delta=128)
+dst = cv2.filter2D(src, -1, emboss, delta=128)
 
-cv.imshow('src', src)
-cv.imshow('dst', dst)
+cv2.imshow('src', src)
+cv2.imshow('dst', dst)
 
-cv.waitKey()
-cv.destroyAllWindows()
+cv2.waitKey()
+cv2.destroyAllWindows()

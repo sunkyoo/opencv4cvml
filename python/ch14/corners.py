@@ -1,18 +1,18 @@
 import numpy as np
-import cv2 as cv
+import cv2
 
 
 def corner_harris():
-    src = cv.imread('building.jpg', cv.IMREAD_GRAYSCALE)
+    src = cv2.imread('building.jpg', cv2.IMREAD_GRAYSCALE)
 
     if src is None:
         print('Image load failed!')
         return
 
-    harris = cv.cornerHarris(src, 3, 3, 0.04)
-    harris_norm = cv.normalize(harris, None, 0, 255, cv.NORM_MINMAX, cv.CV_8U)
+    harris = cv2.cornerHarris(src, 3, 3, 0.04)
+    harris_norm = cv2.normalize(harris, None, 0, 255, cv2.NORM_MINMAX, cv2.CV_8U)
 
-    dst = cv.cvtColor(src, cv.COLOR_GRAY2BGR)
+    dst = cv2.cvtColor(src, cv2.COLOR_GRAY2BGR)
 
     for y in range(harris_norm.shape[0]):
         for x in range(harris_norm.shape[1]):
@@ -21,35 +21,35 @@ def corner_harris():
                         harris[y, x] > harris[y-1, x] and
                         harris[y, x] > harris[y-1, x] and
                         harris[y, x] > harris[y-1, x]):
-                    cv.circle(dst, (x, y), 5, (0, 0, 255), 2)
+                    cv2.circle(dst, (x, y), 5, (0, 0, 255), 2)
 
-    cv.imshow('src', src)
-    cv.imshow('harris_norm', harris_norm)
-    cv.imshow('dst', dst)
-    cv.waitKey()
-    cv.destroyAllWindows()
+    cv2.imshow('src', src)
+    cv2.imshow('harris_norm', harris_norm)
+    cv2.imshow('dst', dst)
+    cv2.waitKey()
+    cv2.destroyAllWindows()
 
 
 def corner_fast():
-    src = cv.imread('building.jpg', cv.IMREAD_GRAYSCALE)
+    src = cv2.imread('building.jpg', cv2.IMREAD_GRAYSCALE)
 
     if src is None:
         print('Image load failed!')
         return
 
-    fast = cv.FastFeatureDetector_create(60)
+    fast = cv2.FastFeatureDetector_create(60)
     keypoints = fast.detect(src)
 
-    dst = cv.cvtColor(src, cv.COLOR_GRAY2BGR)
+    dst = cv2.cvtColor(src, cv2.COLOR_GRAY2BGR)
 
     for kp in keypoints:
         pt = (int(kp.pt[0]), int(kp.pt[1]))
-        cv.circle(dst, pt, 5, (0, 0, 255), 2)
+        cv2.circle(dst, pt, 5, (0, 0, 255), 2)
 
-    cv.imshow('src', src)
-    cv.imshow('dst', dst)
-    cv.waitKey()
-    cv.destroyAllWindows()
+    cv2.imshow('src', src)
+    cv2.imshow('dst', dst)
+    cv2.waitKey()
+    cv2.destroyAllWindows()
 
 
 if __name__ == "__main__":

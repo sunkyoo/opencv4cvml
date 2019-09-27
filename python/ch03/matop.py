@@ -1,9 +1,9 @@
 ﻿import numpy as np
-import cv2 as cv
+import cv2
 
 
 def func1():
-    img1 = cv.imread('cat.bmp', cv.IMREAD_GRAYSCALE)
+    img1 = cv2.imread('cat.bmp', cv2.IMREAD_GRAYSCALE)
 
     if img1 is None:
         print('Image load failed!')
@@ -17,9 +17,9 @@ def func1():
     elif len(img1.shape) == 3:
         print('img1 is a truecolor image')
 
-    cv.imshow('img1', img1)
-    cv.waitKey()
-    cv.destroyAllWindows()
+    cv2.imshow('img1', img1)
+    cv2.waitKey()
+    cv2.destroyAllWindows()
 
 
 def func2():
@@ -39,33 +39,33 @@ def func2():
 
 
 def func3():
-    img1 = cv.imread('cat.bmp')
+    img1 = cv2.imread('cat.bmp')
 
     img2 = img1
     img3 = img1.copy()
 
     img1[:, :] = (0, 255, 255)  # yellow
 
-    cv.imshow('img1', img1)
-    cv.imshow('img2', img2)
-    cv.imshow('img3', img3)
-    cv.waitKey()
-    cv.destroyAllWindows()
+    cv2.imshow('img1', img1)
+    cv2.imshow('img2', img2)
+    cv2.imshow('img3', img3)
+    cv2.waitKey()
+    cv2.destroyAllWindows()
 
 
 def func4():
-    img1 = cv.imread('lenna.bmp', cv.IMREAD_GRAYSCALE)
+    img1 = cv2.imread('lenna.bmp', cv2.IMREAD_GRAYSCALE)
 
     img2 = img1[200:400, 200:400]
     img3 = img1[200:400, 200:400].copy()
 
     img2 += 20
 
-    cv.imshow('img1', img1)
-    cv.imshow('img2', img2)
-    cv.imshow('img3', img3)
-    cv.waitKey()
-    cv.destroyAllWindows()
+    cv2.imshow('img1', img1)
+    cv2.imshow('img2', img2)
+    cv2.imshow('img3', img3)
+    cv2.waitKey()
+    cv2.destroyAllWindows()
 
 
 def func5():

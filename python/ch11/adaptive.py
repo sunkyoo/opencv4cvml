@@ -1,5 +1,5 @@
 import numpy as np
-import cv2 as cv
+import cv2
 
 
 def on_trackbar(pos):
@@ -7,23 +7,23 @@ def on_trackbar(pos):
     if bsize % 2 == 0: bsize = bsize - 1
     if bsize < 3: bsize = 3
 
-    dst = cv.adaptiveThreshold(src, 255, cv.ADAPTIVE_THRESH_GAUSSIAN_C,
-                               cv.THRESH_BINARY, bsize, 5)
+    dst = cv2.adaptiveThreshold(src, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
+                               cv2.THRESH_BINARY, bsize, 5)
 
-    cv.imshow('dst', dst)
+    cv2.imshow('dst', dst)
 
 
-src = cv.imread('sudoku.jpg', cv.IMREAD_GRAYSCALE)
+src = cv2.imread('sudoku.jpg', cv2.IMREAD_GRAYSCALE)
 
 if src is None:
     print('Image load failed!')
     exit()
 
-cv.imshow('src', src)
+cv2.imshow('src', src)
 
-cv.namedWindow('dst')
-cv.createTrackbar('Block Size', 'dst', 0, 200, on_trackbar)
-cv.setTrackbarPos('Block Size', 'dst', 11)
+cv2.namedWindow('dst')
+cv2.createTrackbar('Block Size', 'dst', 0, 200, on_trackbar)
+cv2.setTrackbarPos('Block Size', 'dst', 11)
 
-cv.waitKey()
-cv.destroyAllWindows()
+cv2.waitKey()
+cv2.destroyAllWindows()

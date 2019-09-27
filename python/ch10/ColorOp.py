@@ -1,9 +1,9 @@
 import numpy as np
-import cv2 as cv
+import cv2
 
 
 def color_op():
-    src = cv.imread('butterfly.jpg', cv.IMREAD_COLOR)
+    src = cv2.imread('butterfly.jpg', cv2.IMREAD_COLOR)
 
     if src is None:
         print('Image load failed!')
@@ -17,7 +17,7 @@ def color_op():
 
 
 def color_inverse():
-    src = cv.imread('butterfly.jpg', cv.IMREAD_COLOR)
+    src = cv2.imread('butterfly.jpg', cv2.IMREAD_COLOR)
 
     if src is None:
         print('Image load failed!')
@@ -34,43 +34,43 @@ def color_inverse():
             p2[1] = 255 - p1[1]
             p2[2] = 255 - p1[2]
 
-    cv.imshow('src', src)
-    cv.imshow('dst', dst)
-    cv.waitKey()
-    cv.destroyAllWindows()
+    cv2.imshow('src', src)
+    cv2.imshow('dst', dst)
+    cv2.waitKey()
+    cv2.destroyAllWindows()
 
 
 def color_grayscale():
-    src = cv.imread('butterfly.jpg', cv.IMREAD_COLOR)
+    src = cv2.imread('butterfly.jpg', cv2.IMREAD_COLOR)
 
     if src is None:
         print('Image load failed!')
         return
 
-    dst = cv.cvtColor(src, cv.COLOR_BGR2GRAY)
+    dst = cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
 
-    cv.imshow('src', src)
-    cv.imshow('dst', dst)
-    cv.waitKey()
-    cv.destroyAllWindows()
+    cv2.imshow('src', src)
+    cv2.imshow('dst', dst)
+    cv2.waitKey()
+    cv2.destroyAllWindows()
 
 
 def color_split():
-    src = cv.imread('candies.png', cv.IMREAD_COLOR)
+    src = cv2.imread('candies.png', cv2.IMREAD_COLOR)
 
     if src is None:
         print('Image load failed!')
         return
 
-    # b_plane, g_plane, r_plane = cv.split(src)
-    bgr_planes = cv.split(src)
+    # b_plane, g_plane, r_plane = cv2.split(src)
+    bgr_planes = cv2.split(src)
 
-    cv.imshow('src', src)
-    cv.imshow('B_plane', bgr_planes[0])
-    cv.imshow('G_plane', bgr_planes[1])
-    cv.imshow('R_plane', bgr_planes[2])
-    cv.waitKey()
-    cv.destroyAllWindows()
+    cv2.imshow('src', src)
+    cv2.imshow('B_plane', bgr_planes[0])
+    cv2.imshow('G_plane', bgr_planes[1])
+    cv2.imshow('R_plane', bgr_planes[2])
+    cv2.waitKey()
+    cv2.destroyAllWindows()
 
 
 if __name__ == '__main__':

@@ -1,5 +1,5 @@
 import numpy as np
-import cv2 as cv
+import cv2
 import sys
 
 
@@ -10,7 +10,7 @@ if argc < 3:
 
 imgs = []
 for i in range(1, argc):
-    img = cv.imread(sys.argv[i])
+    img = cv2.imread(sys.argv[i])
 
     if img is None:
         print('Image load failed!')
@@ -18,15 +18,15 @@ for i in range(1, argc):
 
     imgs.append(img)
 
-stitcher = cv.Stitcher_create()
+stitcher = cv2.Stitcher_create()
 status, dst = stitcher.stitch(imgs)
 
-if status != cv.Stitcher_OK:
+if status != cv2.Stitcher_OK:
     print('Error on stitching!')
     exit()
 
-cv.imwrite('result.jpg', dst)
+cv2.imwrite('result.jpg', dst)
 
-cv.imshow('dst', dst)
-cv.waitKey()
-cv.destroyAllWindows()
+cv2.imshow('dst', dst)
+cv2.waitKey()
+cv2.destroyAllWindows()

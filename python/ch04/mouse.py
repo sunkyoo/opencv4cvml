@@ -1,33 +1,33 @@
 import numpy as np
-import cv2 as cv
+import cv2
 
 
 def on_mouse(event, x, y, flags, param):
     global oldx, oldy
 
-    if event == cv.EVENT_LBUTTONDOWN:
+    if event == cv2.EVENT_LBUTTONDOWN:
         oldx, oldy = x, y
         print('EVENT_LBUTTONDOWN: %d, %d' % (x, y))
 
-    elif event == cv.EVENT_LBUTTONUP:
+    elif event == cv2.EVENT_LBUTTONUP:
         print('EVENT_LBUTTONUP: %d, %d' % (x, y))
 
-    elif event == cv.EVENT_MOUSEMOVE:
-        if flags & cv.EVENT_FLAG_LBUTTON:
-            cv.line(img, (oldx, oldy), (x, y), (0, 255, 255), 2)
-            cv.imshow('img', img)
+    elif event == cv2.EVENT_MOUSEMOVE:
+        if flags & cv2.EVENT_FLAG_LBUTTON:
+            cv2.line(img, (oldx, oldy), (x, y), (0, 255, 255), 2)
+            cv2.imshow('img', img)
             oldx, oldy = x, y
 
 
-img = cv.imread('lenna.bmp')
+img = cv2.imread('lenna.bmp')
 
 if img is None:
     print('Image load failed!')
     exit()
 
-cv.namedWindow('img')
-cv.setMouseCallback('img', on_mouse)
+cv2.namedWindow('img')
+cv2.setMouseCallback('img', on_mouse)
 
-cv.imshow('img', img)
-cv.waitKey()
-cv.destroyAllWindows()
+cv2.imshow('img', img)
+cv2.waitKey()
+cv2.destroyAllWindows()

@@ -1,9 +1,9 @@
 import numpy as np
-import cv2 as cv
+import cv2
 
 
-img = cv.imread('circuit.bmp', cv.IMREAD_COLOR)
-templ = cv.imread('crystal.bmp', cv.IMREAD_COLOR)
+img = cv2.imread('circuit.bmp', cv2.IMREAD_COLOR)
+templ = cv2.imread('crystal.bmp', cv2.IMREAD_COLOR)
 
 if img is None or templ is None:
     print('Image load failed!')
@@ -12,20 +12,20 @@ if img is None or templ is None:
 img = img + (50, 50, 50)
 
 noise = np.zeros(img.shape, np.int32)
-cv.randn(noise, 0, 10)
-img = cv.add(img, noise, dtype=cv.CV_8UC3)
+cv2.randn(noise, 0, 10)
+img = cv2.add(img, noise, dtype=cv2.CV_8UC3)
 
-res = cv.matchTemplate(img, templ, cv.TM_CCOEFF_NORMED)
-res_norm = cv.normalize(res, None, 0, 255, cv.NORM_MINMAX, cv.CV_8U)
+res = cv2.matchTemplate(img, templ, cv2.TM_CCOEFF_NORMED)
+res_norm = cv2.normalize(res, None, 0, 255, cv2.NORM_MINMAX, cv2.CV_8U)
 
-_, maxv, _, maxloc = cv.minMaxLoc(res)
+_, maxv, _, maxloc = cv2.minMaxLoc(res)
 print('maxv:', maxv)
 
 (th, tw) = templ.shape[:2]
-cv.rectangle(img, maxloc, (maxloc[0] + tw, maxloc[1] + th), (0, 0, 255), 2)
+cv2.rectangle(img, maxloc, (maxloc[0] + tw, maxloc[1] + th), (0, 0, 255), 2)
 
-cv.imshow('templ', templ)
-cv.imshow('res_norm', res_norm)
-cv.imshow('img', img)
-cv.waitKey()
-cv.destroyAllWindows()
+cv2.imshow('templ', templ)
+cv2.imshow('res_norm', res_norm)
+cv2.imshow('img', img)
+cv2.waitKey()
+cv2.destroyAllWindows()

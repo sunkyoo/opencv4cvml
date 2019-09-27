@@ -1,5 +1,5 @@
 import numpy as np
-import cv2 as cv
+import cv2
 
 
 def saturated(value):
@@ -13,14 +13,14 @@ def saturated(value):
 
 def on_level_change(pos):
     img[:] = saturated(pos * 16)
-    cv.imshow('image', img)
+    cv2.imshow('image', img)
 
 
 img = np.zeros((400, 400), np.uint8)
 
-cv.namedWindow('image')
-cv.createTrackbar('level', 'image', 0, 16, on_level_change)
+cv2.namedWindow('image')
+cv2.createTrackbar('level', 'image', 0, 16, on_level_change)
 
-cv.imshow('image', img)
-cv.waitKey()
-cv.destroyAllWindows()
+cv2.imshow('image', img)
+cv2.waitKey()
+cv2.destroyAllWindows()

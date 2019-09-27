@@ -1,19 +1,19 @@
 import numpy as np
-import cv2 as cv
+import cv2
 from matplotlib import pyplot as plt
 
 
 def erode_dilate():
-    src = cv.imread('milkdrop.bmp', cv.IMREAD_GRAYSCALE)
+    src = cv2.imread('milkdrop.bmp', cv2.IMREAD_GRAYSCALE)
 
     if src is None:
         print('Image load failed!')
         return
 
-    _, src_bin = cv.threshold(src, 0, 255, cv.THRESH_BINARY | cv.THRESH_OTSU)
+    _, src_bin = cv2.threshold(src, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
 
-    dst1 = cv.erode(src_bin, None)
-    dst2 = cv.dilate(src_bin, None)
+    dst1 = cv2.erode(src_bin, None)
+    dst2 = cv2.dilate(src_bin, None)
 
     plt.subplot(221), plt.axis('off'), plt.imshow(src, 'gray'), plt.title('src')
     plt.subplot(222), plt.axis('off'), plt.imshow(src_bin, 'gray'), plt.title('src_bin')
@@ -23,16 +23,16 @@ def erode_dilate():
 
 
 def open_close():
-    src = cv.imread('milkdrop.bmp', cv.IMREAD_GRAYSCALE)
+    src = cv2.imread('milkdrop.bmp', cv2.IMREAD_GRAYSCALE)
 
     if src is None:
         print('Image load failed!')
         return
 
-    _, src_bin = cv.threshold(src, 0, 255, cv.THRESH_BINARY | cv.THRESH_OTSU)
+    _, src_bin = cv2.threshold(src, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
 
-    dst1 = cv.morphologyEx(src_bin, cv.MORPH_OPEN, None)
-    dst2 = cv.morphologyEx(src_bin, cv.MORPH_CLOSE, None)
+    dst1 = cv2.morphologyEx(src_bin, cv2.MORPH_OPEN, None)
+    dst2 = cv2.morphologyEx(src_bin, cv2.MORPH_CLOSE, None)
 
     plt.subplot(221), plt.axis('off'), plt.imshow(src, 'gray'), plt.title('src')
     plt.subplot(222), plt.axis('off'), plt.imshow(src_bin, 'gray'), plt.title('src_bin')

@@ -1,14 +1,14 @@
 import numpy as np
-import cv2 as cv
+import cv2
 
 
-src = cv.imread('box_in_scene.png', cv.IMREAD_GRAYSCALE)
+src = cv2.imread('box_in_scene.png', cv2.IMREAD_GRAYSCALE)
 
 if src is None:
     print('Image load failed!')
     exit()
 
-orb = cv.ORB_create()
+orb = cv2.ORB_create()
 
 keypoints = orb.detect(src)
 keypoints, desc = orb.compute(src, keypoints)
@@ -16,11 +16,11 @@ keypoints, desc = orb.compute(src, keypoints)
 print('len(keypoints):', len(keypoints))
 print('desc.shape:', desc.shape)
 
-dst = cv.drawKeypoints(src, keypoints, None, (-1, -1, -1),
-                       cv.DrawMatchesFlags_DRAW_RICH_KEYPOINTS)
+dst = cv2.drawKeypoints(src, keypoints, None, (-1, -1, -1),
+                       cv2.DrawMatchesFlags_DRAW_RICH_KEYPOINTS)
 
-cv.imshow('src', src)
-cv.imshow('dst', dst)
+cv2.imshow('src', src)
+cv2.imshow('dst', dst)
 
-cv.waitKey()
-cv.destroyAllWindows()
+cv2.waitKey()
+cv2.destroyAllWindows()

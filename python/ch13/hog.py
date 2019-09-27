@@ -1,16 +1,16 @@
 import numpy as np
-import cv2 as cv
+import cv2
 import random
 
 
-cap = cv.VideoCapture('vtest.avi')
+cap = cv2.VideoCapture('vtest.avi')
 
 if not cap.isOpened():
     print('Video open failed!')
     exit()
 
-hog = cv.HOGDescriptor()
-hog.setSVMDetector(cv.HOGDescriptor_getDefaultPeopleDetector())
+hog = cv2.HOGDescriptor()
+hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 
 while True:
     ret, frame = cap.read()
@@ -22,10 +22,10 @@ while True:
 
     for (x, y, w, h) in detected:
         c = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
-        cv.rectangle(frame, (x, y), (x + w, y + h), c, 3)
+        cv2.rectangle(frame, (x, y), (x + w, y + h), c, 3)
 
-    cv.imshow('frame', frame)
-    if cv.waitKey(10) == 27:
+    cv2.imshow('frame', frame)
+    if cv2.waitKey(10) == 27:
         break
 
-cv.destroyAllWindows()
+cv2.destroyAllWindows()

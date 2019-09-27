@@ -1,22 +1,22 @@
 import numpy as np
-import cv2 as cv
+import cv2
 
 
-img = cv.imread('lenna.bmp')
+img = cv2.imread('lenna.bmp')
 
 if img is None:
     print('Image load failed!')
     exit()
 
-cv.namedWindow('img')
-cv.imshow('img', img)
+cv2.namedWindow('img')
+cv2.imshow('img', img)
 
 while True:
-    keycode = cv.waitKey()
+    keycode = cv2.waitKey()
     if keycode == ord('i') or keycode == ord('I'):
         img = ~img
-        cv.imshow('img', img)
+        cv2.imshow('img', img)
     elif keycode == 27 or keycode == ord('q') or keycode == ord('Q'):
         break
 
-cv.destroyAllWindows()
+cv2.destroyAllWindows()

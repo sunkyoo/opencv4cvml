@@ -1,26 +1,26 @@
 import numpy as np
-import cv2 as cv
+import cv2
 
 
-src = cv.imread('rose.bmp', cv.IMREAD_GRAYSCALE)
+src = cv2.imread('rose.bmp', cv2.IMREAD_GRAYSCALE)
 
 if src is None:
     print('Image load failed!')
     exit()
 
-cv.imshow('src', src)
+cv2.imshow('src', src)
 
 for sigma in range(1, 6):
-    blurred = cv.GaussianBlur(src, (0, 0), sigma)
+    blurred = cv2.GaussianBlur(src, (0, 0), sigma)
 
     alpha = 1.0
-    dst = cv.addWeighted(src, 1 + alpha, blurred, -alpha, 0.0)
+    dst = cv2.addWeighted(src, 1 + alpha, blurred, -alpha, 0.0)
 
     desc = "sigma: %d" % sigma
-    cv.putText(dst, desc, (10, 30), cv.FONT_HERSHEY_SIMPLEX,
-               1.0, 255, 1, cv.LINE_AA)
+    cv2.putText(dst, desc, (10, 30), cv2.FONT_HERSHEY_SIMPLEX,
+               1.0, 255, 1, cv2.LINE_AA)
 
-    cv.imshow('dst', dst)
-    cv.waitKey()
+    cv2.imshow('dst', dst)
+    cv2.waitKey()
 
-cv.destroyAllWindows()
+cv2.destroyAllWindows()
