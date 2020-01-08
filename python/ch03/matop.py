@@ -92,14 +92,10 @@ def func6():
     mat3 = mat1 + mat2
     mat4 = mat2 * 2
 
-    print("mat1:")
-    print(mat1)
-    print("mat2:")
-    print(mat2)
-    print("mat3:")
-    print(mat3)
-    print("mat4:")
-    print(mat4)
+    print("mat1:", mat1, sep='\n')
+    print("mat2:", mat2, sep='\n')
+    print("mat3:", mat3, sep='\n')
+    print("mat4:", mat4, sep='\n')
 
 
 if __name__ == '__main__':

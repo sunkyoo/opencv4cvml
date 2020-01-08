@@ -7,7 +7,7 @@ def camera_in():
 
     if not cap.isOpened():
         print("Camera open failed!")
-        exit()
+        return
 
     print('Frame width:', int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)))
     print('Frame height:', int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)))
@@ -34,7 +34,7 @@ def video_in():
 
     if not cap.isOpened():
         print("Video open failed!")
-        exit()
+        return
 
     print('Frame width:', int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)))
     print('Frame height:', int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)))
@@ -67,13 +67,13 @@ def camera_in_video_out():
 
     if not cap.isOpened():
         print("Camera open failed!")
-        exit()
+        return
 
     w = round(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     h = round(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
     fps = cap.get(cv2.CAP_PROP_FPS)
 
-    fourcc = cv2.VideoWriter_fourcc(*'DIVX')
+    fourcc = cv2.VideoWriter_fourcc(*'DIVX') # *'DIVX' == 'D', 'I', 'V', 'X'
     delay = round(1000 / fps)
 
     outputVideo = cv2.VideoWriter('output.avi', fourcc, fps, (w, h))

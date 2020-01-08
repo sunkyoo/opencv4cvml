@@ -27,7 +27,8 @@ def mask_copyTo():
         print('Image load failed!')
         return
 
-    dst[mask > 0] = src[mask > 0]
+    cv2.copyTo(src, mask, dst)
+    # dst[mask > 0] = src[mask > 0]
 
     cv2.imshow('src', src)
     cv2.imshow('dst', dst)

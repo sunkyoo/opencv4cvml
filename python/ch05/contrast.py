@@ -25,8 +25,9 @@ def contrast2():
         print('Image load failed!')
         return
 
+    # dst(x,y) = src(x,y) + (src(x,y) - 128)*alpha  
     alpha = 1.0
-    dst = cv2.convertScaleAbs(src, alpha=1+alpha, beta=-128*alpha)
+    dst = np.clip(src + (src - 128.)*alpha, 0, 255).astype(np.uint8)
 
     cv2.imshow('src', src)
     cv2.imshow('dst', dst)
