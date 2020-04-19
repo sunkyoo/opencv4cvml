@@ -13,10 +13,10 @@ def calcGrayHist(img):
 
 
 def getGrayHistImage(hist):
-    _, histMax, _, _ = cv2.minMaxLoc(hist)
+    histMax = np.max(hist)
 
-    imgHist = np.ones((100, 256), np.uint8) * 255
-    for x in range(imgHist.shape[1]):
+    imgHist = np.full((100, 256), 255, dtype=np.uint8)
+    for x in range(256):
         pt1 = (x, 100)
         pt2 = (x, 100 - int(hist[x, 0] * 100 / histMax))
         cv2.line(imgHist, pt1, pt2, 0)
@@ -31,9 +31,10 @@ def histgoram_stretching():
         print('Image load failed!')
         return
 
-    gmin, gmax, _, _ = cv2.minMaxLoc(src)
+    gmin = float(np.min(src))
+    gmax = float(np.max(src))
 
-    dst = cv2.convertScaleAbs(src, alpha=255.0/(gmax - gmin), beta=-gmin * 255.0/(gmax - gmin))
+    dst = ((src - gmin) * 255. / (gmax - gmin)).astype(np.uint8)
 
     cv2.imshow('src', src)
     cv2.imshow('srcHist', getGrayHistImage(calcGrayHist(src)))

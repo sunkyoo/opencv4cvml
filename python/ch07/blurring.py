@@ -11,7 +11,7 @@ def blurring_mean():
 
     cv2.imshow('src', src)
 
-    for ksize in range(3, 9, 2):
+    for ksize in (3, 5, 7):
         dst = cv2.blur(src, (ksize, ksize))
 
         desc = "Mean: %dx%d" % (ksize, ksize)
