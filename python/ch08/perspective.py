@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 import cv2
 
@@ -34,7 +35,7 @@ src = cv2.imread('card.bmp')
 
 if src is None:
     print('Image load failed!')
-    exit()
+    sys.exit()
 
 cv2.namedWindow('src')
 cv2.setMouseCallback('src', on_mouse)

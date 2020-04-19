@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 import cv2
 
@@ -6,7 +7,7 @@ cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():
     print('Video open failed!')
-    exit()
+    sys.exit()
 
 detector = cv2.QRCodeDetector()
 

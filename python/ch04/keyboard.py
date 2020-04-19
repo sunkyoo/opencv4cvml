@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 import cv2
 
@@ -6,7 +7,7 @@ img = cv2.imread('lenna.bmp')
 
 if img is None:
     print('Image load failed!')
-    exit()
+    sys.exit()
 
 cv2.namedWindow('img')
 cv2.imshow('img', img)

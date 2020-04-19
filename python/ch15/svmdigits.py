@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 import cv2
 
@@ -27,7 +28,7 @@ digits = cv2.imread('digits.png', cv2.IMREAD_GRAYSCALE)
 
 if digits is None:
     print('Image load failed!')
-    exit()
+    sys.exit()
 
 h, w = digits.shape[:2]
 hog = cv2.HOGDescriptor((20, 20), (10, 10), (5, 5), (5, 5), 9)

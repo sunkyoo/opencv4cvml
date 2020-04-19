@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 import cv2
 
@@ -17,7 +18,7 @@ src = cv2.imread('sudoku.jpg', cv2.IMREAD_GRAYSCALE)
 
 if src is None:
     print('Image load failed!')
-    exit()
+    sys.exit()
 
 cv2.imshow('src', src)
 

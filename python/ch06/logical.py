@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
@@ -8,7 +9,7 @@ src2 = cv2.imread('square.bmp', cv2.IMREAD_GRAYSCALE)
 
 if src1 is None or src2 is None:
     print('Image load failed!')
-    exit()
+    sys.exit()
 
 dst1 = cv2.bitwise_and(src1, src2)
 dst2 = cv2.bitwise_or(src1, src2)

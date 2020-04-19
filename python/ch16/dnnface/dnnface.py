@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 import cv2
 
@@ -11,13 +12,13 @@ cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():
     print('Camera open failed!')
-    exit()
+    sys.exit()
 
 net = cv2.dnn.readNet(model, config)
 
 if net.empty():
     print('Net open failed!')
-    exit()
+    sys.exit()
 
 while True:
     _, frame = cap.read()

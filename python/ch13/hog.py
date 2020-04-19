@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 import cv2
 import random
@@ -7,7 +8,7 @@ cap = cv2.VideoCapture('vtest.avi')
 
 if not cap.isOpened():
     print('Video open failed!')
-    exit()
+    sys.exit()
 
 hog = cv2.HOGDescriptor()
 hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())

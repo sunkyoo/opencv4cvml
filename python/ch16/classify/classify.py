@@ -1,6 +1,6 @@
+import sys
 import numpy as np
 import cv2
-import sys
 
 
 filename = 'space_shuttle.jpg'
@@ -12,7 +12,7 @@ img = cv2.imread(filename)
 
 if img is None:
     print('Image load failed!')
-    exit()
+    sys.exit()
 
 # Load network
 
@@ -20,7 +20,7 @@ net = cv2.dnn.readNet('bvlc_googlenet.caffemodel', 'deploy.prototxt')
 
 if net.empty():
     print('Network load failed!')
-    exit()
+    sys.exit()
 
 # Load class names
 

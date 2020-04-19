@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 import cv2
 
@@ -6,7 +7,7 @@ src = cv2.imread('pepper.bmp', cv2.IMREAD_COLOR)
 
 if src is None:
     print('Image load failed!')
-    exit()
+    sys.exit()
 
 src_ycrcb = cv2.cvtColor(src, cv2.COLOR_BGR2YCrCb)
 

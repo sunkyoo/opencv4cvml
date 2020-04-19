@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 import cv2
 
@@ -7,7 +8,7 @@ templ = cv2.imread('crystal.bmp', cv2.IMREAD_COLOR)
 
 if img is None or templ is None:
     print('Image load failed!')
-    exit()
+    sys.exit()
 
 img = img + (50, 50, 50)
 

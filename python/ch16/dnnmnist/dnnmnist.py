@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 import cv2
 
@@ -24,7 +25,7 @@ net = cv2.dnn.readNet('mnist_cnn.pb')
 
 if net.empty():
     print('Network load failed!')
-    exit()
+    sys.exit()
 
 img = np.zeros((400, 400), np.uint8)
 

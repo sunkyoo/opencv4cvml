@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 import cv2
 
@@ -6,7 +7,7 @@ src = cv2.imread('box_in_scene.png', cv2.IMREAD_GRAYSCALE)
 
 if src is None:
     print('Image load failed!')
-    exit()
+    sys.exit()
 
 orb = cv2.ORB_create()
 

@@ -1,6 +1,6 @@
+import sys
 import numpy as np
 import cv2
-import sys
 
 
 def on_threshold(pos):
@@ -16,7 +16,7 @@ src = cv2.imread(filename, cv2.IMREAD_GRAYSCALE)
 
 if src is None:
     print('Image load failed!')
-    exit()
+    sys.exit()
 
 cv2.imshow('src', src)
 

@@ -1,12 +1,12 @@
+import sys
 import numpy as np
 import cv2
-import sys
 
 
 argc = len(sys.argv)
 if argc < 3:
     print('Usage: stitching.exe <image_file1> <image_file2> [<image_file3> ...]')
-    exit()
+    sys.exit()
 
 imgs = []
 for i in range(1, argc):
@@ -14,7 +14,7 @@ for i in range(1, argc):
 
     if img is None:
         print('Image load failed!')
-        exit()
+        sys.exit()
 
     imgs.append(img)
 
@@ -23,7 +23,7 @@ status, dst = stitcher.stitch(imgs)
 
 if status != cv2.Stitcher_OK:
     print('Error on stitching!')
-    exit()
+    sys.exit()
 
 cv2.imwrite('result.jpg', dst)
 
