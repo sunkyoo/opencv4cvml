@@ -7,13 +7,13 @@ using namespace std;
 Mat calcGrayHist(const Mat& img);
 Mat getGrayHistImage(const Mat& hist);
 
-void histgoram_stretching();
-void histgoram_equalization();
+void histogram_stretching();
+void histogram_equalization();
 
 int main(void)
 {
-	histgoram_stretching();
-	histgoram_equalization();
+	histogram_stretching();
+	histogram_equalization();
 
 	return 0;
 }
@@ -51,7 +51,7 @@ Mat getGrayHistImage(const Mat& hist)
 	return imgHist;
 }
 
-void histgoram_stretching()
+void histogram_stretching()
 {
 	Mat src = imread("hawkes.bmp", IMREAD_GRAYSCALE);
 
@@ -75,7 +75,7 @@ void histgoram_stretching()
 	destroyAllWindows();
 }
 
-void histgoram_equalization()
+void histogram_equalization()
 {
 	Mat src = imread("hawkes.bmp", IMREAD_GRAYSCALE);
 
