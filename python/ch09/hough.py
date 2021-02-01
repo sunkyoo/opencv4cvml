@@ -73,7 +73,7 @@ def hough_circles():
     if circles is not None:
         for i in range(circles.shape[1]):
             cx, cy, radius = circles[0][i]
-            cv2.circle(dst, (cx, cy), radius, (0, 0, 255), 2, cv2.LINE_AA)
+            cv2.circle(dst, (cx, cy), int(radius), (0, 0, 255), 2, cv2.LINE_AA)
 
     cv2.imshow('src', src)
     cv2.imshow('dst', dst)
