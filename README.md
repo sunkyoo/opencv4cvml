@@ -52,7 +52,7 @@
 * [부록A] OpenCV 소스 코드 빌드하여 설치하기 [![Youtube](./docs/youtube_icon.png)](https://youtu.be/ac75cFPYlOQ) [[동영상]](https://youtu.be/ac75cFPYlOQ)
 * [부록B] 리눅스에서 OpenCV 설치하고 사용하기 [![Youtube](./docs/youtube_icon.png)](https://youtu.be/3RcQf0hJdFM) [[동영상]](https://youtu.be/3RcQf0hJdFM) / [[문서]](./docs/OpenCV4Linux.md)
 
-OpenCV 프로그램 개발을 위해 필요한 몇몇 C++ 문법 동영상 강의도 제공합니다.
+OpenCV 프로그램 개발을 위해 필요한 주요 C++ 문법 동영상 강의도 제공합니다.
 
 * 연산자 오버로딩 [![Youtube](./docs/youtube_icon.png)](https://youtu.be/vOxIJLGl_xo) [[동영상]](https://youtu.be/vOxIJLGl_xo)
 * std::vector 클래스 [![Youtube](./docs/youtube_icon.png)](https://youtu.be/6Qba8vfg2AI) [[동영상]](https://youtu.be/6Qba8vfg2AI)
