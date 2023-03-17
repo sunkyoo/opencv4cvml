@@ -58,9 +58,6 @@ def trainAndDisplay():
 img = np.zeros((500, 500, 3), np.uint8)
 knn = cv2.ml.KNearest_create()
 
-cv2.namedWindow('knn')
-cv2.createTrackbar('k_value', 'knn', k_value, 5, on_k_changed)
-
 NUM = 30
 rn = np.zeros((NUM, 2), np.int32)
 
@@ -75,6 +72,9 @@ for i in range(NUM):
 cv2.randn(rn, 0, 70)
 for i in range(NUM):
     addPoint(rn[i, 0] + 250, rn[i, 1] + 400, 2)
+
+cv2.namedWindow('knn')
+cv2.createTrackbar('k_value', 'knn', k_value, 5, on_k_changed)
 
 trainAndDisplay()
 
