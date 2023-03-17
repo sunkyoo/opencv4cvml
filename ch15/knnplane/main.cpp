@@ -19,9 +19,6 @@ int main(void)
 	img = Mat::zeros(Size(500, 500), CV_8UC3);
 	knn = KNearest::create();
 
-	namedWindow("knn");
-	createTrackbar("k", "knn", &k_value, 5, on_k_changed);
-
 	const int NUM = 30;
 	Mat rn(NUM, 2, CV_32SC1);
 
@@ -36,6 +33,9 @@ int main(void)
 	randn(rn, 0, 70); 
 	for (int i = 0; i < NUM; i++) 
 		addPoint(Point(rn.at<int>(i, 0) + 250, rn.at<int>(i, 1) + 400), 2);
+
+	namedWindow("knn");
+	createTrackbar("k", "knn", &k_value, 5, on_k_changed);
 
 	trainAndDisplay();
 
